@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">LocalDataApp</string>
+    <string name="app_version">Version 1.0</string>
+    <string name="app_name_splash">Local Data</string>
+
+    <string name="user">User name/email</string>
+    <string name="password">Password</string>
+
+    <string name="login_btn">Login</string>
+    <string name="powered">Powered by </string>
+    <string name="zingo_hotel">Zingo Hotels</string>
+    <string name="lucidia">&#9400; Lucida Hospitality Pvt Ltd</string>
+
+
+    <string name="category">Select</string>
+    <string name="sub_category">Select</string>
+
+    <string-array name="category_arrays">
+        <item>Sports</item>
+        <item>Nightlife</item>
+        <item>Eat &amp; Drink</item>
+        <item>Family Fun</item>
+        <item>Adventure</item>
+        <item>Arts &amp; Culture</item>
+        <item>Nature</item>
+        <item>Health &amp; Wellness</item>
+        <item>Events</item>
+        <item>Once in a Life Time</item>
+        <item>Holiday Packages</item>
+        <item>Classes &amp; Workshops</item>
+        <item>History</item>
+        <item>Music &amp; Entertainment</item>
+        <item>Gaming</item>
+        <item>Explore the Unexplored</item>
+        <item>Outdoor Activities</item>
+        <!--<item>Discover Nearby Places</item>-->
+    </string-array>
+
+
+    <array name="Sports_item">
+        <item>Water Sports</item>
+        <item>Land</item>
+        <item>Air</item>
+        <item>Airport Lounge</item>
+        <item>Airport Fast Track</item>
+    </array>
+
+    <array name="Nightlife_item">
+        <item>Pubs</item>
+        <item>Disco</item>
+        <item>Alcohol Free Activities</item>
+        <item>Evening Activity</item>
+    </array>
+
+    <array name="Eat_item">
+        <item>Fine Dining</item>
+        <item>Food Tasting</item>
+        <item>Street Food</item>
+        <item>Drinks Tasting</item>
+        <item>Nightlife</item>
+        <item>Cooking Glass</item>
+    </array>
+
+    <array name="Family_item">
+        <item>Theme Park</item>
+        <item>Zoo</item>
+        <item>Aquarium</item>
+        <item>Safari</item>
+        <item>Island Hopping</item>
+        <item>Other Attractions</item>
+    </array>
+
+    <array name="Adventure_item">
+        <item>Water</item>
+        <item>Land</item>
+        <item>Air</item>
+        <item>Mountains</item>
+        <item>Extreme</item>
+    </array>
+
+    <array name="Arts_item">
+        <item>Sightseeing</item>
+        <item>Local Performance</item>
+        <item>Learning</item>
+        <item>Community Based Tourism</item>
+    </array>
+
+    <array name="Classes_item">
+        <item>City Tour</item>
+
+    </array>
+
+    <array name="Outdoor_item">
+        <item>Bowling Experience</item>
+        <item>Aerosports</item>
+        <item>Water Sports</item>
+        <item>Music</item>
+        <item>Cycling</item>
+        <item>Resort Day Outings</item>
+        <item>Luxury Bike Rentals</item>
+    </array>
+
+    <array name="Nature_item">
+        <item>Wildlife</item>
+        <item>Nature Parks and Reserves</item>
+        <item>Star Gazing</item>
+    </array>
+
+    <array name="Health_item">
+        <item>Spa &amp; Wellness</item>
+        <item>Medical Tourism</item>
+        <item>Yoga</item>
+        <item>Detox</item>
+        <item>Spiritual Meditation</item>
+        <item>Zumba Classes</item>
+    </array>
+
+    <string name="submit_continue">Save &amp; Continue</string>
+
+    <string-array name="duration_arrays">
+        <item>5 - 10 mins</item>
+        <item>10 - 15 mins</item>
+        <item>15 - 30 mins</item>
+        <item>30 - 45 mins</item>
+        <item>45 - 60 mins</item>
+        <item>1 - 2 hours</item>
+        <item>2 - 4 hours</item>
+        <item>4 - 6 hours</item>
+        <item>6 - 8 hours</item>
+        <item>8 - 10 hours</item>
+        <item>10 - 12 hours</item>
+        <item>12 - 15 hours</item>
+        <item>15 - 18 hours</item>
+        <item>18 - 24 hours</item>
+
+        <!--<item>Discover Nearby Places</item>-->
+    </string-array>
+
+    <string name="submit">Submit</string>
+
+    <string name="permission_rationale">"Storage permission is needed for fetching images from Gallery."</string>
+
+
+</resources>

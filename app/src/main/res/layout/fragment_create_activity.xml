@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D7CCC8"
+        android:layout_marginTop="80dp">
+
+    <LinearLayout
+        android:id="@+id/category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D7CCC8"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:paddingTop="15dp"
+            android:text="Choose Category"
+            android:paddingLeft="15dp"
+            android:textStyle="bold"
+            android:textColor="#3E2723"
+             />
+
+        <Spinner
+            android:id="@+id/category_title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/spinner_background"/>
+    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/sub_layout"
+            android:layout_below="@+id/category_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D7CCC8"
+            android:visibility="gone"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:text="Sub Category"
+                android:paddingLeft="15dp"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:textColor="#3E2723"
+                />
+
+            <Spinner
+                android:id="@+id/category_sub_title"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/spinner_background"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/create_button"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Create"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/sub_layout"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
